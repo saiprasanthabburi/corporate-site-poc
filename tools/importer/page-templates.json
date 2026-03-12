@@ -1,0 +1,69 @@
+{
+  "templates": [
+    {
+      "name": "our-company",
+      "urls": [
+        "https://corporate.ralphlauren.com/our-company"
+      ],
+      "description": "Corporate company overview page with brand story and company information",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": [
+            "header.fullbleed.img-hero"
+          ]
+        },
+        {
+          "name": "hero-card",
+          "instances": [
+            ".cid_our-company-history-bucket section.img-link",
+            ".cid_our-company-strategy-bucket section.img-link",
+            ".cid_our-company-leadership-bucket section.img-link"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero Section",
+          "selector": ".hero",
+          "style": "dark",
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-history",
+          "name": "History Card Section",
+          "selector": ".cid_our-company-history-bucket",
+          "style": null,
+          "blocks": [
+            "hero-card"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-strategy",
+          "name": "Strategy Card Section",
+          "selector": ".cid_our-company-strategy-bucket",
+          "style": null,
+          "blocks": [
+            "hero-card"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4-leadership",
+          "name": "Leadership Card Section",
+          "selector": ".cid_our-company-leadership-bucket",
+          "style": null,
+          "blocks": [
+            "hero-card"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

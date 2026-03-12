@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-card",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-12T04:11:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://corporate.ralphlauren.com/our-company",
+    "originPage": "corporate company overview page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "image-link-card",
+    "imagePattern": "large",
+    "structure": "image + heading + CTA"
+  },
+  "contentPattern": {
+    "structure": "image + heading + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "full-width image cards with heading overlay",
+      "section navigation cards with Learn More CTAs",
+      "category landing page link cards"
+    ],
+    "notSuitableFor": [
+      "top-of-page hero banners without CTA",
+      "hero sections with multiple CTAs",
+      "light background hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/our-company"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-12T04:11:00.000Z"
+  }
+}
