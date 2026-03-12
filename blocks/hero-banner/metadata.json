@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-12T04:11:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://corporate.ralphlauren.com/our-company",
+    "originPage": "corporate company overview page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "page-hero",
+    "imagePattern": "large",
+    "structure": "heading"
+  },
+  "contentPattern": {
+    "structure": "image + heading",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "corporate landing pages",
+      "brand overview pages",
+      "top-of-page hero banners with dark image backgrounds"
+    ],
+    "notSuitableFor": [
+      "hero sections with CTA buttons",
+      "light background hero sections",
+      "hero sections with subheading text"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/our-company"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-12T04:11:00.000Z"
+  }
+}
